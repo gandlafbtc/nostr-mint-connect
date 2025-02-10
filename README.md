@@ -2,6 +2,15 @@
 
 Cashu-ts plugin for connecting to mints via nostr
 
+## Usage
+
+Instead of using cashu-ts's `CashuMint` this plugin provides a `NMCMint` that can be used to access a mint via nostr:
+
+```typescript
+const mint = new NMCMint(pubkey, [relay1, relay2])
+```
+
+
 ## Get Started
 
 1. Run `npm install` in your terminal
